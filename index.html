@@ -22,8 +22,26 @@
         </button>
       </header>
       <div class="card"></div>
-      <h1 class="playerName">Nome do Jogador</h1>
-      <span class="resultado">0 days</span>
+      <footer>
+        <div class="form">
+          <label for="name">Enter your name : </label>
+          <input
+            class="name-input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Hours"
+          />
+        </div>
+        <div class="form">
+          <label for="number">Time played : </label>
+          <input type="number" class="time-input" placeholder="Time" />
+        </div>
+        <div class="time-played">
+          <button class="calcular">Calcular</button>
+          <span class="resultado">0 days</span>
+        </div>
+      </footer>
     </div>
 
     <script src="tracker.js"></script>
